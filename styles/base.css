@@ -1,0 +1,144 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font-family: "Advent Pro", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    margin: 0;
+    padding: 0;
+}
+
+header {
+}
+
+h1 {
+    background-color: rgb(0, 110, 182);
+    padding: 2rem;
+    color: #2c0e0e;
+    text-align: center;
+}
+
+h1 a {
+    color: rgb(255, 246, 126);
+}
+
+h2 {
+    text-align: center;
+    background-color: rgb(0, 110, 182);
+    padding: 0.5rem;
+}
+
+h3 {
+    text-align: center;
+    padding: 0.5rem;
+    margin-left: 4rem;
+    margin-right: 4rem;
+    border-bottom: 1px solid rgb(180, 175, 175);
+}
+
+nav {
+    background-color: rgb(49, 49, 49);
+}
+
+nav ul {
+    display: flex;
+    list-style-type: none;
+    justify-content: space-around;
+}
+
+nav a {
+    display: block;
+    text-align: center;
+    padding: 1rem;
+    text-decoration: none;
+}
+
+nav li a {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+
+nav li a:hover {
+    background-color: #464545;
+}
+
+main {
+    padding: 2rem;
+    display: grid;
+    height: auto;
+    grid-template: 1fr / 2fr 1fr;
+    grid-gap: 1rem;
+}
+
+main img {
+    width: 150px;
+    height: auto;
+    padding: 10px;
+    float: right;
+}
+
+.card1 {
+    border: 1px solid rgb(180, 175, 175);
+    border-radius: 10px;
+}
+
+.card1 p {
+    padding: 1rem;
+}
+
+div {
+    max-width: 40rem;
+}
+
+div figure {
+    display: flex;
+    flex-flow: column;
+    justify-content: space-evenly;
+    align-items: center;
+    padding: 1rem;
+    width: 150px;
+    height: auto;
+    margin: 1rem;
+    float: left;
+}
+
+div figcaption {
+    display: block;
+    text-align: left;
+}
+
+.card2 {
+    border: 1px solid rgb(180, 175, 175);
+    border-radius: 10px;
+}
+
+.card2 p {
+    margin-top: 9rem;
+}
+
+.card2 ul {
+    margin: 0.5rem;
+    padding-left: 3rem;
+}
+
+.card2 li {
+    padding: 0.2rem;
+}
+
+footer {
+    background: rgb(0, 110, 182);
+    color: white;
+    padding: 2rem;
+    text-align: center;
+}
+
+.highlight {
+    color: rgb(255, 246, 126);
+    font-family: hebrew;
+}

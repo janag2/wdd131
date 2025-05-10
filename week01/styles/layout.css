@@ -1,0 +1,57 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    display: grid;
+    height: 100vh;
+    grid-template: auto 1fr / 1fr 300px;
+}
+
+header {
+    grid-column: 1 / 3;
+}
+
+h1 {
+    background-color: rgb(124, 124, 124);
+    padding: 2rem;
+    color: #2c0e0e;
+}
+
+nav {
+    background-color: rgb(37, 37, 37);
+    color: rgb(255, 255, 255);
+}
+
+nav ul {
+    display: flex;
+    list-style-type: none;
+    justify-content: space-around;
+}
+
+nav a {
+    display: block;
+    text-align: center;
+    padding: 1rem;
+    text-decoration: none;
+}
+
+main {
+    background: rgb(219, 215, 215);
+    padding: 2rem;
+    grid-column: 1 / 2;
+}
+
+aside {
+    background: rgb(255, 255, 255);
+    padding: 2rem;
+    grid-column: 2 / 2;
+}
+
+footer {
+    background: rgb(77, 77, 77);
+    padding: 4rem;
+    grid-column: 1 / 3;
+    text-align: center;
+}
