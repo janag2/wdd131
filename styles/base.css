@@ -3,7 +3,7 @@
     padding: 0;
 }
 
-h1, nav {
+h1, nav, footer {
     font-family: "Montserrat Alternates", sans-serif;
     font-weight: 400;
     font-style: normal;
@@ -29,10 +29,6 @@ h1 {
     padding: 2rem;
     color: #2c0e0e;
     text-align: center;
-}
-
-h1 a {
-    color: rgb(255, 246, 126);
 }
 
 h2 {
@@ -150,6 +146,6 @@ footer {
 }
 
 .highlight {
-    color: rgb(255, 246, 126);
-    font-family: hebrew;
+    color: rgba(255, 255, 0, 1);
+    font-size: smaller;
 }
