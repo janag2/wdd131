@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Country Page</title>
+    <meta name="description" content="Country">
+    <meta name="author" content="Jesse Anaglate">
+
+    <link rel="stylesheet" href="styles/place.css">
+    <script src="scripts/place.js" defer></script>
+</head>
+<body>
+    <header>
+        <h1>Ghana</h1>
+    </header>
+    <main>
+        <picture>
+            <source srcset="images/ghana_large.webp" media="(min-width: 800px)">
+            <img src="images/ghana_small.webp" alt="hero image" width="320" height="480">
+        </picture>
+
+        <section class="card about">
+            <h2>Data</h2>
+            <div class="data">
+                <span class="assign">Area:</span><span class="value">240,000 km2 (93,000 sq mi)</span>
+                <span class="assign">Population:</span><span class="value">34,612,532</span>
+                <span class="assign">Capital:</span><span class="value">Accra</span>
+                <span class="assign">Language:</span><span class="value">English</span>
+                <span class="assign">Currency:</span><span class="value"> Cedi (GHS)</span>
+                <span class="assign">Time Zone:</span><span class="value">UTC (GMT)</span>
+                <span class="assign">Calling Code:</span><span class="value">+233</span>
+                <span class="assign">Internet TLD:</span><span class="value"> .gh</span>
+            </div>
+        </section>
+
+        <section class="card info">
+            <h2>Weather</h2>
+            <img src="images/1530391_weather_clouds_sun_sunny_icon.svg" alt="weather">
+            <div class="data">
+                <span class="assign">Temperature:</span><span class="value">30 ℃</span>
+                <span class="assign">Conditions:</span><span class="value">Partly Sunny</span>
+                <span class="assign">Wind:</span><span class="value">17 km/h</span>
+                <span class="assign">Wind Chill:</span><span class="value" id="wc"></span>
+            </div>
+        </section>
+
+    </main>
+</body>
+<footer>
+     <p class="copyright">
+        &copy; <span id="currentyear"></span> ‖ Jesse Anaglate ‖ Ghana
+    </p>
+    <p class="highlight"><span id="lastModified"></span></p>
+</footer>
+</html>

@@ -1,0 +1,120 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html, body {
+    background-color: rgba(220, 13, 50, 1);
+}
+
+header {
+    border-bottom: 1.2rem solid yellow;
+    color: white;
+    text-align: center;
+    padding: 1.5rem;
+}
+
+h1 {
+    font-size: 2.5rem;
+    text-align: center;
+}
+
+main {
+    
+}
+
+img {
+    width: 100%;
+    height: auto;
+}
+
+.card {
+    background-color: white;
+    opacity: 0.7;
+}
+
+h2 {
+    padding: 1rem;
+}
+
+.data {
+    display: grid;
+    grid-gap: 0.5rem;
+    grid-template-columns: 1fr 1fr;
+    padding: 1rem;
+}
+
+.assign {
+    font-size: 0.85rem;
+    font-weight: bold;
+    text-align: right;
+}
+
+.value {
+    font-size: 0.9rem;
+    text-align: left;
+}
+
+.about, .info {
+    text-align: center;
+}
+
+.info img {
+    width: 100px;
+    height: auto;
+
+}
+
+footer {
+    color: white;
+    text-align: center;
+    padding: 1.5rem;
+}
+
+@media (min-width: 500px) {
+    h1 {
+        font-size: 3rem;
+    }
+
+    main {
+        position: relative;
+    }
+
+    .card {
+        box-shadow: 0 0 2rem #000;
+        border: 1px solid #0000001a;
+        opacity: 0.7;
+    }
+
+    .about {
+        position: absolute;
+        left: 2rem;
+        top: 4rem;
+    }
+
+    .info {
+        position: absolute;
+        right: 2rem;
+        bottom: 4rem; 
+    }
+
+    .info h2::after {
+        position: absolute;
+        content: "🌤️";
+        top: 1.3rem;
+        right: 4rem
+    }
+
+    .info img {
+        display: none;
+    }
+
+    h2 {
+        background-color: green;
+        color: white;
+        width: 90%;
+        text-align: left;
+        margin: 0.7rem -0.7rem 0.7rem;
+    }
+}
