@@ -1,3 +1,9 @@
+:root {
+    --red: rgba(220, 13, 50, 1);
+    --yello: rgb(255, 255, 0);
+    --green: rgb(0, 128, 0);
+}
+
 * {
     margin: 0;
     padding: 0;
@@ -6,11 +12,11 @@
 
 html, body {
     font-family: "Montserrat Alternates", sans-serif;
-    background-color: rgba(220, 13, 50, 1);
+    background-color: var(--red);
 }
 
 header {
-    border-bottom: 1.2rem solid yellow;
+    border-bottom: 1.2rem solid var(--yello);
     color: white;
     text-align: center;
     padding: 1.5rem;
@@ -108,7 +114,7 @@ footer {
     }
 
     h2 {
-        background-color: green;
+        background-color: var(--green);
         color: white;
         width: 90%;
         text-align: left;
