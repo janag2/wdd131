@@ -21,8 +21,8 @@ header {
 
 h1 {
     background-color: blue;
-    font-size: 1.2rem;
-    padding: 1rem;
+    font-size: 1.4rem;
+    padding: 1.5rem;
     text-align: center;
 }
 
@@ -31,9 +31,9 @@ h2 {
     background-color: blue;
     color: #fff;
     margin: 0 0 0.5rem;
-    font-size: 1.1rem;
+    font-size: 1.2rem;
     border-radius: 0.5rem 0.5rem 0 0;
-    padding: 0.5rem;
+    padding: 1rem;
 }
 
 nav {
@@ -46,7 +46,7 @@ nav a, a:visited {
     display: block;
     text-align: center;
     font-size: 1rem;
-    padding: 0.5rem;
+    padding: 1rem;
     text-decoration: none;
     color: #fff;
 }
@@ -115,6 +115,10 @@ img {
     justify-content: center;
 }
 
+.dev a {
+    color: black;
+}
+
 figure {
     margin: 0.5rem;
 }
@@ -126,10 +130,10 @@ figcaption {
 }
 
 footer {
-    font-size: 0.9rem;
+    font-size: 1rem;
     background: blue;
     color: white;
-    padding: 1rem;
+    padding: 1.5rem;
 }
 
 footer p {
