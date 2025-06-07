@@ -1,3 +1,11 @@
+:root {
+    --primary-color: #f9ca4b;
+    --secondary-color: #80c6ff;
+    --accent1-color: #f7c63f;
+    --accent2-color: #ffffff;
+    --accent3-color: #75757a;
+}
+
 * {
     margin: 0;
     padding: 0;
@@ -5,50 +13,89 @@
 }
 
 body {
-    font-family: "Montserrat Alternates", sans-serif;
+    font-family: "Ubuntu Condensed", sans-serif;
+    background-color: var(--accent1-color);
 }
 
 header {
     display: flex;
-    place-items: center;
-    background-color: #fff;
-    position: relative;
-}
-
-h1 {
-    padding: 2rem;
-    color: #2c0e0e;
+    background-color: var(--accent2-color);
+    padding: 1rem;
     margin: 0 0 0 0;
 }
 
-nav {
-    color: rgb(0, 0, 0);
+header img {
+    width: 140px;
+    height: auto;
 }
 
-nav ul {
-    display: flex;
-    list-style-type: none;
-    justify-content: space-around;
-}
-
-nav a {
+.navigation {
     position: relative;
-    left: 2rem;
-    display: block;
-    text-align: center;
-    justify-content: space-evenly;
-    padding: 1.5rem;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+.navigation ul {
+    display: flex;
+    flex-direction: row;
+    list-style-type: none;
+}
+
+.navigation a {
     text-decoration: none;
+    font-size: 16px;
+    font-family: "Port Lligat Slab", serif;
+    padding: 5px 15px 5px 40px;
+    opacity: 0.8;
+}
+
+.navigation li {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
 }
 
 main {
-    background: rgb(249, 202, 75);
-    padding: 2rem;
-    height: 20rem;
+    line-height: 1.6;
+    padding-left: 10rem;
+    padding-right: 10rem;
+    margin-top: 1rem;
+    margin-bottom: 1rem;
+}
+
+h2 {
+    font-family: "Port Lligat Slab", serif;
+}
+
+hr {
+    border: none;
+    border-top: 1px solid var(--secondary-color);
+    margin: 40px 0;
+}
+
+.wireframe {
+    color: black;
 }
 
 footer {
-    background: rgb(117, 117, 122);
+    background: var(--accent3-color);
     padding: 4rem;
     text-align: center;
+}
+
+@media (max-width: 768px) {
+    header {
+        font-size: 2em;
+    }
+
+    body {
+        font-weight: 550;
+    }
+}
+
+@media (max-width: 480px) {
+    header {
+        font-size: 1.8em;
+    }
 }

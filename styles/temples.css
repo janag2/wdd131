@@ -11,8 +11,6 @@ body {
 
 header {
     display: flex;
-    grid-template-columns: 1fr auto;
-    gap: 1rem;
     justify-content: space-between;
     text-align: center;
     align-items: center;
@@ -28,7 +26,6 @@ header, main {
 }
 
 h1 {
-    background-color: #000000;
     color: white;
     font-size: 1.2rem;
     padding: 1rem;
