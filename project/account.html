@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sign Up / Sign In Page</title>
+    <meta name="description" content="Sign Up / Sign In page">
+    <meta name="author" content="Jesse Anaglate">
+
+    <link rel="stylesheet" href="styles/site.css">
+    <script src="scripts/dates.js" defer></script>
+</head>
+<body>
+    <header>
+        <nav class="navigation">
+            <img class="logo" src="images/logo.png" alt="logo">
+            <ul>
+              <li><a href="site.html">HOME</a></li>
+              <li><a href="products.html">PRODUCTS</a></li>
+              <li><a href="account.html">SELL ON CREDD</a></li>
+            </ul>
+        </nav>
+    </header>
+    
+    <main>
+        <div class="account">
+            <h2>ACCOUNT LOGIN</h2>
+            <p></p>
+                <form action="#" method="post">
+                    <label for="fname">First Name:</label>
+                    <input type="text" id="fname" name="fname" required>
+                    <label for="lname">Last Name:</label>
+                    <input type="text" id="lname" name="lname" required><br><br>
+                    <label for="email">Email:</label>
+                    <input type="text" id="email" name="email" required><br><br>
+
+                    <button type="sign">Sign Up</button>
+                    <button type="sign">Sign In</button>
+                </form>
+        </div>
+    </main>
+    <footer>
+        <div class="newsletter">
+            <div>
+                <div>New to Credd?</div>
+                "Subscribe to our newsletter to get updated on our latest offers!"
+            </div>
+            <form method="post" action="">
+                <input type="email" placeholder="Enter E-mail Address" required aria-label="E-mail">
+                <button type="submit">Subscribe</button><br>
+                <input required type="checkbox" name="legaltext" value="1">
+                <label for="legaltext">"I agree to Credd's Privacy and Cookies Policy. You can unsubscribe from newsletter at any time."</label>
+            </form>
+        </div>
+
+        <p class="copyright">
+        &copy; <span id="currentyear"></span> CREDD ‖ Ghana
+        </p>
+        <p class="highlight"><span id="lastModified"></span></p>
+    </footer>
+</body>
+</html>
